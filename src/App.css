@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+input {
+  margin-top: 10px;
+  padding: 5px;
+  width: 50px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 5px 10px;
+}
+
+.summaries-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.batch {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.original, .summary {
+  width: 45%;
+}
